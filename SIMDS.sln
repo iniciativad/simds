@@ -13,8 +13,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{A5AFCC77-4F49-433A-95C9-63B26BBFA05E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simds.Domain", "app\Simds.Domain\Simds.Domain.csproj", "{705039CD-EA43-4568-B9E4-0853119A42F0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{705039CD-EA43-4568-B9E4-0853119A42F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705039CD-EA43-4568-B9E4-0853119A42F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705039CD-EA43-4568-B9E4-0853119A42F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705039CD-EA43-4568-B9E4-0853119A42F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{705039CD-EA43-4568-B9E4-0853119A42F0} = {ADDCCE2A-BD7D-450D-80B7-B34A9F664FEB}
 	EndGlobalSection
 EndGlobal
