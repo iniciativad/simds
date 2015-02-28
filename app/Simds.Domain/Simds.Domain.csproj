@@ -33,12 +33,14 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Cartao.cs" />
     <Compile Include="Entities\Conjuge.cs" />
     <Compile Include="Entities\Dependente.cs" />
     <Compile Include="Entities\EquipamentoPublico.cs" />
     <Compile Include="Entities\Escolaridade.cs" />
     <Compile Include="Entities\Pessoa.cs" />
     <Compile Include="Entities\Prefeitura.cs" />
+    <Compile Include="Entities\Sexo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

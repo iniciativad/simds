@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Simds.Domain.Entities
 {
@@ -24,7 +21,7 @@ namespace Simds.Domain.Entities
 		public string TituloEleitorUf { get; set; }
 		public string Nis { get; set; }
 		public string CartaoCidadao { get; set; }
-		public string Sexo { get; set; }
+		public int SexoId { get; set; }
 		public string Email { get; set; }
 		public string Telefone { get; set; }
 		public string Celular { get; set; }
@@ -44,7 +41,7 @@ namespace Simds.Domain.Entities
 		public int EquipamentoPublicoId { get; set; }
 		
 		public virtual IEnumerable<Escolaridade> Escolaridade { get; set; }
-
+		public virtual IEnumerable<Sexo> Sexo { get; set; }
 
 		public bool ClienteEspecial(Pessoa pessoa)
 		{
