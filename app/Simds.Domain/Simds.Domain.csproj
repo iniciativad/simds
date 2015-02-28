@@ -41,10 +41,23 @@
     <Compile Include="Entities\Pessoa.cs" />
     <Compile Include="Entities\Prefeitura.cs" />
     <Compile Include="Entities\Sexo.cs" />
+    <Compile Include="Interfaces\ICartaoRepository.cs" />
+    <Compile Include="Interfaces\IConjugeRepository.cs" />
+    <Compile Include="Interfaces\IDependenteRepository.cs" />
+    <Compile Include="Interfaces\IEquipamentoPublicoRepository.cs" />
+    <Compile Include="Interfaces\IPessoaRepository.cs" />
+    <Compile Include="Interfaces\IPrefeituraRepository.cs" />
+    <Compile Include="Interfaces\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\Services\ICartaoService.cs" />
+    <Compile Include="Interfaces\Services\IConjugeService.cs" />
+    <Compile Include="Interfaces\Services\IDependenteService.cs" />
+    <Compile Include="Interfaces\Services\IEquipamentoPublicoService.cs" />
+    <Compile Include="Interfaces\Services\IPessoaService.cs" />
+    <Compile Include="Interfaces\Services\IPrefeituraService.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
