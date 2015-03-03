@@ -39,7 +39,10 @@ namespace Simds.Domain.Entities
 		public bool Desempregado { get; set; }		
 		public string Profissao { get; set; }
 		public int EquipamentoPublicoId { get; set; }
-		
+		public virtual EquipamentoPublico EquipamentoPublico { get; set; }
+		public int PessoaId { get; set; }
+		public virtual Pessoa Pessoa { get; set; }
+
 		public virtual IEnumerable<Escolaridade> Escolaridade { get; set; }
 		public virtual IEnumerable<Sexo> Sexo { get; set; }
 

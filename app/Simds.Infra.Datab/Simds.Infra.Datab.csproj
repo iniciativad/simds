@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FDCC47BD-09C5-4F08-8084-4A9179228721}</ProjectGuid>
+    <ProjectGuid>{704271FC-E6AC-4543-AC57-8ED0352E882A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Simds.Infra.Data</RootNamespace>
-    <AssemblyName>Simds.Infra.Data</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <RootNamespace>Simds.Infra.Datab</RootNamespace>
+    <AssemblyName>Simds.Infra.Datab</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -38,6 +38,9 @@
       <HintPath>..\..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -50,20 +53,13 @@
   <ItemGroup>
     <Compile Include="Contexts\SimdsContext.cs" />
     <Compile Include="EntityConfig\CartaoConfig.cs" />
-    <Compile Include="EntityConfig\ConjugeConfig.cs" />
-    <Compile Include="EntityConfig\DependenteConfig.cs" />
-    <Compile Include="EntityConfig\EquipamentoPublicoConfig.cs" />
-    <Compile Include="EntityConfig\PessoaConfig.cs" />
-    <Compile Include="EntityConfig\PrefeituraConfig.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
+    <Fakes Include="Fakes\Simds.Domain.fakes" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Simds.Domain\Simds.Domain.csproj">
