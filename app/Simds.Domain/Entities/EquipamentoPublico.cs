@@ -31,8 +31,9 @@ namespace Simds.Domain.Entities
 		
 		public string ResponsavelCargo { get; set; }
 		
-		public string TipoEquipamentoPublico { get; set; }
-		
+		public int EquipamentoPublicoTipoId { get; set; }
+		public virtual EquipamentoPublicoTipo EquipamentoPublicoTipo { get; set; }
+
 		public DateTime DataFundacao { get; set; }
 		public int PrefeituraId { get; set; }
 		public virtual Prefeitura Prefeitura { get; set; }

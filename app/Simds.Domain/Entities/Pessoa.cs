@@ -6,8 +6,7 @@ namespace Simds.Domain.Entities
 	public class Pessoa
 	{
 		public int PessoaId { get; set; }
-		public string Nome { get; set; }
-		public string Sobrenome { get; set; }
+		public string Nome { get; set; }		
 		public DateTime DataNascimento { get; set; }
 		public string Rg { get; set; }
 		public string RgOrgaoEmissor { get; set; }

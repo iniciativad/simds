@@ -7,7 +7,7 @@ namespace Simds.Domain.Entities
 	{
 		public int ConjugeId { get; set; }
 		public string Nome { get; set; }
-		public string Sobrenome { get; set; }
+		
 		public DateTime DataNascimento { get; set; }
 		public string Rg { get; set; }
 		public string RgOrgaoEmissor { get; set; }
@@ -53,9 +53,9 @@ namespace Simds.Domain.Entities
 			return pessoa.PNE = true;
 		}
 
-		public bool PessoaIdosa(Pessoa pessoa)
+		public bool PessoaIdosa(Conjuge conjuge)
 		{
-			return DateTime.Now.Year - pessoa.DataNascimento.Year >= 60;
+			return DateTime.Now.Year - conjuge.DataNascimento.Year >= 60;
 		}
 	}
 }
