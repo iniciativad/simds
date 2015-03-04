@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simds.Infra.Data", "app\Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simds.Mvc", "app\Simds.Mvc\Simds.Mvc.csproj", "{D770AA53-D550-48D0-901B-D2EF6BE1E762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simds.Application", "app\Simds.Application\Simds.Application.csproj", "{C546C7B3-7096-4393-80E0-6905FF07DB62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D770AA53-D550-48D0-901B-D2EF6BE1E762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D770AA53-D550-48D0-901B-D2EF6BE1E762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D770AA53-D550-48D0-901B-D2EF6BE1E762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C546C7B3-7096-4393-80E0-6905FF07DB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C546C7B3-7096-4393-80E0-6905FF07DB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C546C7B3-7096-4393-80E0-6905FF07DB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C546C7B3-7096-4393-80E0-6905FF07DB62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,6 @@ Global
 		{1ADFE6E9-A7C2-4DC8-99F0-95056B916C0B} = {A5AFCC77-4F49-433A-95C9-63B26BBFA05E}
 		{FDCC47BD-09C5-4F08-8084-4A9179228721} = {1ADFE6E9-A7C2-4DC8-99F0-95056B916C0B}
 		{D770AA53-D550-48D0-901B-D2EF6BE1E762} = {2FE6517D-DB1A-48E8-85A2-CD4ED113EA56}
+		{C546C7B3-7096-4393-80E0-6905FF07DB62} = {77DA81C4-ABCD-4434-ABC9-3FABFF6AE888}
 	EndGlobalSection
 EndGlobal
