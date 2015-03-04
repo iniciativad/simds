@@ -147,6 +147,7 @@
     <Compile Include="ViewModels\CartaoViewModel.cs" />
     <Compile Include="ViewModels\ConjugeViewModel.cs" />
     <Compile Include="ViewModels\DependenteViewModel.cs" />
+    <Compile Include="ViewModels\EquipamentoPublicoTipoViewModel.cs" />
     <Compile Include="ViewModels\EquipamentoPublicoViewModel.cs" />
     <Compile Include="ViewModels\EscolaridadeViewModel.cs" />
     <Compile Include="ViewModels\PessoaViewModel.cs" />

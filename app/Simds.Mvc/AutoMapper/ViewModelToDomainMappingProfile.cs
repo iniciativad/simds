@@ -1,4 +1,7 @@
 ﻿using AutoMapper;
+using Simds.Domain.Entities;
+using Simds.Mvc.ViewModels;
+
 
 
 namespace Simds.Mvc.AutoMapper
@@ -12,8 +15,15 @@ namespace Simds.Mvc.AutoMapper
 
 		protected override void Configure()
 		{
-			Mapper.CreateMap<Cliente, ClienteViewModel>();
-			Mapper.CreateMap<Produto, ProdutoViewModel>();
+			Mapper.CreateMap<Cartao, CartaoViewModel>();
+			Mapper.CreateMap<Conjuge, ConjugeViewModel>();
+			Mapper.CreateMap<Dependente, DependenteViewModel>();
+			Mapper.CreateMap<EquipamentoPublico, EquipamentoPublicoViewModel>();
+			Mapper.CreateMap<EquipamentoPublicoTipo, EquipamentoPublicoTipoViewModel>();
+			Mapper.CreateMap<Escolaridade, Escolaridade>();
+			Mapper.CreateMap<Pessoa, PessoaViewModel>();
+			Mapper.CreateMap<Prefeitura, PrefeituraViewModel>();
+			Mapper.CreateMap<Sexo, SexoViewModel>();
 		}
 	}
 }
