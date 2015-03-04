@@ -57,14 +57,19 @@
     <Compile Include="EntityConfig\PrefeituraConfig.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CartaoRepository.cs" />
+    <Compile Include="Repositories\ConjugeRepository.cs" />
+    <Compile Include="Repositories\DependenteRepository.cs" />
+    <Compile Include="Repositories\EquipamentoPublicoRepository.cs" />
+    <Compile Include="Repositories\PessoaRepository.cs" />
+    <Compile Include="Repositories\PrefeituraRepository.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Simds.Domain\Simds.Domain.csproj">
       <Project>{705039cd-ea43-4568-b9e4-0853119a42f0}</Project>
