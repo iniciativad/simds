@@ -34,6 +34,6 @@ namespace Simds.Mvc.ViewModels
 
 		public string TipoEquipamentoPublico { get; set; }
 
-		public virtual IEnumerable<EquipamentoPublico> EquipamentosPublicos { get; set; }
+		public virtual IEnumerable<EquipamentoPublicoViewModel> EquipamentosPublicos { get; set; }
 	}
 }

@@ -203,6 +203,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Simds.Application\Simds.Application.csproj">
+      <Project>{c546c7b3-7096-4393-80e0-6905ff07db62}</Project>
+      <Name>Simds.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Simds.Domain\Simds.Domain.csproj">
       <Project>{705039cd-ea43-4568-b9e4-0853119a42f0}</Project>
       <Name>Simds.Domain</Name>
