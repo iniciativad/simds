@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppServiceBase.cs" />
+    <Compile Include="CartaoAppService.cs" />
+    <Compile Include="ConjugeAppService.cs" />
+    <Compile Include="DependenteAppService.cs" />
+    <Compile Include="EquipamentoPublicoAppService.cs" />
     <Compile Include="Interfaces\IAppServiceBase.cs" />
     <Compile Include="Interfaces\ICartaoAppService.cs" />
     <Compile Include="Interfaces\IConjugeAppService.cs" />
@@ -46,6 +51,8 @@
     <Compile Include="Interfaces\IEquipamentoPublicoAppService.cs" />
     <Compile Include="Interfaces\IPessoaAppService.cs" />
     <Compile Include="Interfaces\IPrefeituraAppService.cs" />
+    <Compile Include="PessoaAppService.cs" />
+    <Compile Include="PrefeituraAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
