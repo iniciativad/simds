@@ -32,7 +32,7 @@ namespace Simds.Mvc.ViewModels
 
 		public string ResponsavelCargo { get; set; }
 
-		public string TipoEquipamentoPublico { get; set; }
+		
 
 		public virtual IEnumerable<EquipamentoPublicoViewModel> EquipamentosPublicos { get; set; }
 	}

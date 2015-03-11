@@ -30,7 +30,7 @@ namespace Simds.Domain.Entities
 
 		public string ResponsavelCargo { get; set; }
 
-		public string TipoEquipamentoPublico { get; set; }
+		
 	
 		public virtual IEnumerable<EquipamentoPublico> EquipamentosPublicos { get; set; }
 	}
